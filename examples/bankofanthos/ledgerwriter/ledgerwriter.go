@@ -21,9 +21,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/balancereader"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/model"
+	"github.com/hooto/weaver"
 	"github.com/patrickmn/go-cache"
 )
 

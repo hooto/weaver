@@ -187,7 +187,7 @@ func CallGraph() []CallEdge {
 		for i, n := 0, impl.NumField(); i < n; i++ {
 			// Handle field with type weaver.Ref[T].
 			ref := impl.Field(i).Type
-			if ref.PkgPath() == "github.com/ServiceWeaver/weaver" &&
+			if ref.PkgPath() == "github.com/hooto/weaver" &&
 				strings.HasPrefix(ref.Name(), "Ref[") &&
 				ref.Kind() == reflect.Struct &&
 				ref.NumField() == 1 &&

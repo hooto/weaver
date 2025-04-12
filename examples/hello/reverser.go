@@ -16,7 +16,7 @@ package main
 import (
 	"context"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 )
 
 // Reverser component.

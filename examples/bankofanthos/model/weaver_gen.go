@@ -5,8 +5,8 @@ package model
 
 import (
 	"fmt"
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/runtime/codegen"
+	"github.com/hooto/weaver"
 	"time"
 )
 

@@ -20,7 +20,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 )
 
 type T interface {

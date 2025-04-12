@@ -20,7 +20,7 @@
 
 package foo
 
-import "github.com/ServiceWeaver/weaver"
+import "github.com/hooto/weaver"
 
 type foo interface{}
 

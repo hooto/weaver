@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 )
 
 //go:generate ../../cmd/weaver/weaver generate ./...

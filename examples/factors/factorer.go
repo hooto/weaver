@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ServiceWeaver/weaver"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/hooto/weaver"
 )
 
 // The size of a factorer's LRU cache.

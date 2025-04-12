@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ServiceWeaver/weaver"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/hooto/weaver"
 	_ "modernc.org/sqlite"
 )
 

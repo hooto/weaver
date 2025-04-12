@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/internal/config"
+	"github.com/hooto/weaver"
 )
 
 func TestConfigOnTypeWithConfig(t *testing.T) {

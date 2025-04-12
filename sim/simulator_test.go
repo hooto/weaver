@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/internal/reflection"
+	"github.com/hooto/weaver"
 )
 
 var positive = Filter(NonNegativeInt(), func(x int) bool { return x != 0 })

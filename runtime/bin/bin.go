@@ -174,7 +174,7 @@ func extractModuleVersion(filename string) (string, error) {
 	}
 
 	// Find the Service Weaver module.
-	const weaverModule = "github.com/ServiceWeaver/weaver"
+	const weaverModule = "github.com/hooto/weaver"
 	for _, m := range append(info.Deps, &info.Main) {
 		if m.Path == weaverModule {
 			return m.Version, nil

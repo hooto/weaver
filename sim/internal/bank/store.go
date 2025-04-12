@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 )
 
 // A Store is a persistent map from strings to integers, like a map[string]int.

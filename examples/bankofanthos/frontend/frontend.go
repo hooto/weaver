@@ -26,13 +26,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/balancereader"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/contacts"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/ledgerwriter"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/transactionhistory"
 	"github.com/ServiceWeaver/weaver/examples/bankofanthos/userservice"
 	"github.com/golang-jwt/jwt"
+	"github.com/hooto/weaver"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"golang.org/x/exp/slices"
 )
@@ -198,7 +198,7 @@ func getClusterName(metadataURL string, metadataHeaders http.Header) string {
 	if resp.StatusCode != http.StatusOK {
 		return clusterName
 	}
-	
+
 	clusterNameBytes := make([]byte, resp.ContentLength)
 	_, err = resp.Body.Read(clusterNameBytes)
 	if err != nil {

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"testing"
 
-	core "github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/internal/weaver"
 	"github.com/ServiceWeaver/weaver/runtime"
 	"github.com/ServiceWeaver/weaver/runtime/codegen"
 	"github.com/ServiceWeaver/weaver/runtime/protos"
 	"github.com/google/uuid"
+	core "github.com/hooto/weaver"
 	"golang.org/x/sync/errgroup"
 )
 

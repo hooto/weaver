@@ -17,7 +17,7 @@ package foo
 import (
 	"context"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 )
 
 type byValue struct{ notSerializable chan int }

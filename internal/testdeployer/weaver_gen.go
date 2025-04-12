@@ -6,8 +6,8 @@ package testdeployer
 import (
 	"context"
 	"errors"
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/runtime/codegen"
+	"github.com/hooto/weaver"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 	"reflect"

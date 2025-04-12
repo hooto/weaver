@@ -5,8 +5,8 @@ package frontend
 
 import (
 	"context"
-	"github.com/ServiceWeaver/weaver"
 	"github.com/ServiceWeaver/weaver/runtime/codegen"
+	"github.com/hooto/weaver"
 	"go.opentelemetry.io/otel/trace"
 	"reflect"
 )
@@ -105,4 +105,3 @@ type main_reflect_stub struct {
 
 // Check that main_reflect_stub implements the weaver.Main interface.
 var _ weaver.Main = (*main_reflect_stub)(nil)
-

@@ -39,7 +39,7 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	// We rely on the weaver.controller component registrattion entry.
-	_ "github.com/ServiceWeaver/weaver"
+	_ "github.com/hooto/weaver"
 )
 
 // EnvelopeHandler handles messages from the weavelet. Values passed to the

@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ServiceWeaver/weaver"
+	"github.com/hooto/weaver"
 	"go.opentelemetry.io/otel/trace"
 )
 
